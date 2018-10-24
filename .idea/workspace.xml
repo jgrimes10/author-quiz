@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9150702-a681-4cd9-8ea1-ed8574080ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/author-quiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/author-quiz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hello.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Book.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Continue.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Turn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuthorQuiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuthorQuiz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuthorQuiz.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuthorQuiz.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,17 +37,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
+          <entry key="css" value="5" />
           <entry key="html" value="1" />
-          <entry key="js" value="4" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="7" />
+          <entry key="jsx" value="5" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="5" />
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="4" />
+          <entry key="Image" value="1" />
+          <entry key="JSX Harmony" value="5" />
+          <entry key="JavaScript" value="7" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
@@ -51,30 +62,98 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="js" value="519" />
-          <entry key="txt" value="76" />
+          <entry key="css" value="302" />
+          <entry key="js" value="3066" />
+          <entry key="jsx" value="1136" />
+          <entry key="txt" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="JavaScript" value="519" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="CSS" value="302" />
+          <entry key="JSX Harmony" value="1136" />
+          <entry key="JavaScript" value="3066" />
+          <entry key="PLAIN_TEXT" value="168" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AuthorQuiz.test.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AuthorQuiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="46">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Footer.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="178" selection-start-line="6" selection-start-column="178" selection-end-line="6" selection-end-column="178" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Hero.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Turn.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Book.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Continue.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -88,9 +167,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/AuthorQuiz.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/Hello.test.js" />
         <option value="$PROJECT_DIR$/src/AuthorQuiz.test.js" />
+        <option value="$PROJECT_DIR$/src/components/Hero.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Continue.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Footer.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Book.jsx" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/AuthorQuiz.js" />
+        <option value="$PROJECT_DIR$/src/components/Turn.jsx" />
+        <option value="$PROJECT_DIR$/src/App.css" />
       </list>
     </option>
   </component>
@@ -116,7 +202,9 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -132,7 +220,24 @@
             <path>
               <item name="author-quiz" type="b2602c69:ProjectViewProjectNode" />
               <item name="author-quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="author-quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="author-quiz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="author-quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="author-quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="author-quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="author-quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,6 +258,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jgrimes\WebstormProjects\author-quiz\src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -165,18 +275,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.When testing directly">
-    <configuration name="When setting up testing.should fail" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Author Quiz">
+    <configuration name="Author Quiz" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
+      <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/src/AuthorQuiz.test.js" />
       <test-names>
-        <test-name value="When setting up testing" />
-        <test-name value="should fail" />
+        <test-name value="Author Quiz" />
       </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Hello.test.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Hello.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="When testing directly" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
@@ -191,20 +309,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="When testing directly.should be an h1" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/AuthorQuiz.test.js" />
-      <test-names>
-        <test-name value="When testing directly" />
-        <test-name value="should be an h1" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="When testing with ReactDOM" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="When testing with Enzyme" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
@@ -212,11 +317,11 @@
       <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/src/AuthorQuiz.test.js" />
       <test-names>
-        <test-name value="When testing with ReactDOM" />
+        <test-name value="When testing with Enzyme" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="When testing with Enzyme.should contain Hello at 2020-05-08T14:00:00.000Z" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
@@ -224,24 +329,25 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/AuthorQuiz.test.js" />
       <test-names>
-        <test-name value="renders without crashing" />
+        <test-name value="When testing with Enzyme" />
+        <test-name value="should contain Hello at 2020-05-08T14:00:00.000Z" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.renders without crashing" />
-      <item itemvalue="Jest.When setting up testing.should fail" />
       <item itemvalue="Jest.When testing directly" />
-      <item itemvalue="Jest.When testing directly.should be an h1" />
-      <item itemvalue="Jest.When testing with ReactDOM" />
+      <item itemvalue="Jest.When testing with Enzyme" />
+      <item itemvalue="Jest.When testing with Enzyme.should contain Hello at 2020-05-08T14:00:00.000Z" />
+      <item itemvalue="Jest.Hello.test.js" />
+      <item itemvalue="Jest.Author Quiz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Author Quiz" />
+        <item itemvalue="Jest.Hello.test.js" />
+        <item itemvalue="Jest.When testing with Enzyme.should contain Hello at 2020-05-08T14:00:00.000Z" />
+        <item itemvalue="Jest.When testing with Enzyme" />
         <item itemvalue="Jest.When testing directly" />
-        <item itemvalue="Jest.When testing with ReactDOM" />
-        <item itemvalue="Jest.When testing directly.should be an h1" />
-        <item itemvalue="Jest.When setting up testing.should fail" />
-        <item itemvalue="Jest.renders without crashing" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +362,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540303803592</updated>
       <workItem from="1540303805302" duration="2590000" />
-      <workItem from="1540384331260" duration="3249000" />
+      <workItem from="1540384331260" duration="11675000" />
     </task>
     <task id="LOCAL-00001" summary="Add bootstrap. Refactor file names for more clarity. Remove generated code.">
       <created>1540385877257</created>
@@ -265,31 +371,17 @@
       <option name="project" value="LOCAL" />
       <updated>1540385877257</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Write sample tests using Jest. Import enzyme &amp; enzyme for react for more sample tests.">
+      <created>1540387798963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540387798963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="renders_without_crashing - 2018.10.24 at 09h 02m 39s.xml">
-      <configuration name="renders without crashing" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="When_setting_up_testing_should_fail - 2018.10.24 at 09h 03m 43s.xml">
-      <configuration name="When setting up testing.should fail" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="When_setting_up_testing_should_fail - 2018.10.24 at 09h 04m 06s.xml">
-      <configuration name="When setting up testing.should fail" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="When_testing_directly - 2018.10.24 at 09h 07m 39s.xml">
-      <configuration name="When testing directly" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="When_testing_directly - 2018.10.24 at 09h 09m 04s.xml">
-      <configuration name="When testing directly" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="When_testing_directly_should_be_an_h1 - 2018.10.24 at 09h 20m 58s.xml">
-      <configuration name="When testing directly.should be an h1" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="When_testing_directly - 2018.10.24 at 09h 21m 11s.xml">
-      <configuration name="When testing directly" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="When_testing_directly - 2018.10.24 at 09h 22m 34s.xml">
       <configuration name="When testing directly" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -299,9 +391,30 @@
     <history-entry file="When_testing_directly - 2018.10.24 at 09h 25m 27s.xml">
       <configuration name="When testing directly" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="When_testing_with_ReactDOM - 2018.10.24 at 09h 26m 31s.xml">
+      <configuration name="When testing with ReactDOM" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="When_testing_directly - 2018.10.24 at 09h 29m 31s.xml">
+      <configuration name="When testing directly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="When_testing_with_Enzyme - 2018.10.24 at 09h 44m 05s.xml">
+      <configuration name="When testing with Enzyme" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="When_testing_with_Enzyme_should_contain_Hello_at_2020-05-08T14_00_00_000Z - 2018.10.24 at 09h 49m 31s.xml">
+      <configuration name="When testing with Enzyme.should contain Hello at 2020-05-08T14:00:00.000Z" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="When_testing_with_Enzyme_should_contain_Hello_at_2020-05-08T14_00_00_000Z - 2018.10.24 at 09h 51m 35s.xml">
+      <configuration name="When testing with Enzyme.should contain Hello at 2020-05-08T14:00:00.000Z" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Hello_test_js - 2018.10.24 at 09h 52m 00s.xml">
+      <configuration name="Hello.test.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Author_Quiz - 2018.10.24 at 09h 54m 15s.xml">
+      <configuration name="Author Quiz" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5839000" />
+    <option name="totallyTimeSpent" value="14265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,22 +429,22 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.22442244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928057" visible="true" weight="0.22442244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.50214595" side_tool="true" weight="0.22442244" />
+      <window_info id="npm" order="2" sideWeight="0.5007194" side_tool="true" weight="0.22442244" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3294964" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294964" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3294964" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3294964" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3294964" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3294964" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49966997" weight="0.3294964" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3294964" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033003" side_tool="true" weight="0.3294964" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3294964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,37 +458,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add bootstrap. Refactor file names for more clarity. Remove generated code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add bootstrap. Refactor file names for more clarity. Remove generated code." />
+    <MESSAGE value="Write sample tests using Jest. Import enzyme &amp; enzyme for react for more sample tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Write sample tests using Jest. Import enzyme &amp; enzyme for react for more sample tests." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AuthorQuiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -399,13 +487,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hello.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AuthorQuiz.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="207">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/marktwain.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="178" selection-start-line="6" selection-start-column="178" selection-end-line="6" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Continue.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Book.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hero.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AuthorQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Turn.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
