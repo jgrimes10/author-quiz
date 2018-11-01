@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, withRouter } from 'react-router-dom';
 import './index.css';
 import AuthorQuiz from './AuthorQuiz';
 import AddAuthorForm from './components/AddAuthorForm';
@@ -111,18 +111,30 @@ function onAnswerSelected(answer) {
     render();
 }
 
-const state = {
-    turnData: getTurnData(authors),
-    highlight: ''
-};
+function resetState() {
+    return {
+        turnData: getTurnData(authors),
+        highlight: ''
+    }
+}
+
+let state = resetState();
 
 function App() {
-    return <AuthorQuiz {...state} onAnswerSelected={onAnswerSelected}/>;
+    return <AuthorQuiz {...state} onAnswerSelected={onAnswerSelected}
+    onContinue={() => {
+        state = resetState();
+        render();
+    }}/>;
+
 }
 
-function AuthorWrapper() {
-    return <AddAuthorForm onAddAuthor={console.log}/>;
-}
+const AuthorWrapper = withRouter(({ history }) =>
+    <AddAuthorForm onAddAuthor={(author) => {
+        authors.push(author);
+        history.push('/');
+    }}/>
+);
 
 function render() {
     ReactDOM.render(

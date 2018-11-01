@@ -695,7 +695,7 @@ An alternative way of handling static assets is described in the next section.
 One way to add SVG files was described in the section above. You can also import SVGs directly as React components. You can use either of the two approaches. In your code it would look like this:
 
 ```js
-import { ReactComponent as Logo } from './logo.svg';
+// import { ReactComponent as Logo } from './logo.svg';
 const AuthorQuiz = () => (
   <div>
     {/* Logo is an actual React component */}

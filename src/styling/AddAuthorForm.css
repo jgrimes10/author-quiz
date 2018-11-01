@@ -10,3 +10,7 @@
 .AddAuthorForm__input > label {
     display: block;
 }
+
+.book-from {
+    width: 65%;
+}

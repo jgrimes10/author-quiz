@@ -1,9 +1,14 @@
 import React from 'react';
 
-const Continue = () => {
+const Continue = ({ show, onContinue }) => {
     return (
-        <div>
-            
+        <div className='row continue'>
+            { show ?
+                <div className='col-11'>
+                    <button className='btn btn-primary btn-lg float-right' onClick={onContinue}>Continue</button>
+                </div>
+                : null
+            }
         </div>
     );
 };
